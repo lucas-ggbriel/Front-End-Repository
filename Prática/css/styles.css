@@ -1,13 +1,7 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
-.center{
-    max-width: 1100px;
-    margin:0  -30px;
-    padding: 0 2%;
-}
 /*menu*/
 header{
     padding: 12px;
-    text-align: center;
     background: black;
 }
 
@@ -24,87 +18,66 @@ header a:hover{
     color: gray;
 }
 
-.bt-50{
-    border-radius: 80%;
-    padding: 30px;
-
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
-#fotoinicio{
-    background-color: rgb(128,11,102);
+.center{
+    text-align: center;
+}
+
+#bandeira{
+    background-color: black;
 }
 /*seções*/
-.sectiona{
-    background-color: rgb(241, 0, 6);
-}
-
-.sectionb{
-    background-color:  rgb(252, 105, 0);
-}
-.sectionc{
-    background-color:  rgb(253, 232, 17);
-     
-}
-.sectiond{
-    background-color:  rgb(136, 9, 100);
-    
-}
-
-.sectione{
-    background-color: rgb(1,58,165);
-}
-.sectionf{
-    background-color: rgb(14, 157, 95);
+.section{
+    background-color: white;
 }
 
 #mapa{
     text-align: center;
+    padding: 20px;
 }
-
-h1,h2, p{
+h1,h2,h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 1%;
+}
+p,label{
     text-align: center;
     font-weight: bold;
+    color: black;
+    padding: 1%;
+    font-size: 20px;
 }
-
-ul, ol, label, input, h3{
-    font-weight: bold;
+ul,ol{
     text-align: left;
-    margin: 0px 30px;
+    font-weight: bold;
+    color: black;
+    margin-left: 50px;
+    padding: 1%;
+    font-size: 20px;
 }
 
 .img{
     text-align: center;
-    background-color: rgb(253, 232, 17);
+    background-color: black;
     padding: 15px;
 }
 
-/*container img*/
-.container{
-    display: flex;
-    flex-flow: row;
-    flex-direction: row;
-     justify-content: center;
-     align-items: center;
-}
 
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: rgb(253, 232, 17);
-    
-}
 
-.flex-container > div {
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.bt-50{
+    border-radius: 80%;
+    padding: 30px;
 }
-
 /*Final da página*/
 .tm-contato{
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     padding: 15px;
 }
+
