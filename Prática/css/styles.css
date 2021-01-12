@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+.center{
+    max-width: 1100px;
+    margin:0  -30px;
+    padding: 0 2%;
+}
+
+header{
+    padding: 12px;
+    text-align: left;
+    background: black;
+}
+
+header li{
+    display: inline-block;
+    margin:0 12px;
+}
+header a{
+    text-decoration: none;
+    font-size: arial;
+    color: white;
+}
+
+.sectionp{
+    background-color:  white;
+}
+
+.sectionp h1{
+    color:  black;
+}
+.sectiona{
+    background-color:  black;
+    
+}
+
+.sectiona p,a,h1, ul, label{
+    color:  white;
+    
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.imagens{
+    text-align: center;
+}
+
