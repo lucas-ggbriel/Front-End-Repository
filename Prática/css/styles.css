@@ -7,7 +7,7 @@
 /*menu*/
 header{
     padding: 12px;
-    text-align: left;
+    text-align: center;
     background: black;
 }
 
@@ -20,6 +20,16 @@ header a{
     font-size: arial;
     color: white;
 }
+header a:hover{
+    color: gray;
+}
+
+.bt-50{
+    border-radius: 80%;
+    padding: 30px;
+
+}
+
 #fotoinicio{
     background-color: rgb(128,11,102);
 }
@@ -65,6 +75,7 @@ ul, ol, label, input, h3{
 .img{
     text-align: center;
     background-color: rgb(253, 232, 17);
+    padding: 15px;
 }
 
 /*container img*/
@@ -90,4 +101,10 @@ ul, ol, label, input, h3{
   line-height: 75px;
   font-size: 30px;
 }
-1
+
+/*Final da página*/
+.tm-contato{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
