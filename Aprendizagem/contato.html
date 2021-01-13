@@ -21,23 +21,23 @@
     <div class="container mb-50">
 
         <div>
-            <form action="">
+            <form>
                 <label for="nome">Nome:</label>
                 <br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="divnome"></div>
                 <br>
                 <label for="email">Email:</label>
                 <br>
                 <input type="text" id="email">
-                <br>
+                <div></div>
                 <br>
                 <label for="assunto">Assunto:</label>
                 <br>
-                <textarea name="assunto" id="" cols="60" rows="5"></textarea>
-
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <div></div>
                 <br>
-                <button>Enviar</button>
+                <button >Enviar</button>
 
             </form>
         </div>
@@ -78,6 +78,8 @@
         <p class="center">Todos os direitos reservados: Lucas Gabriel &copy</p>
     </footer>
 
+
+    <script src="acets/js/scripts.js"></script>
 
 
 </body>
