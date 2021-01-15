@@ -81,3 +81,6 @@ ul,ol{
     padding: 15px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
